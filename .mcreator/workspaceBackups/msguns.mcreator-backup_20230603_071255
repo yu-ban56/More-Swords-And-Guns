@@ -1,0 +1,1904 @@
+{
+  "mod_elements": [
+    {
+      "name": "Chainsaw",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainsaw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/chainsaw.json",
+          "src/main/java/yuban/msguns/item/ChainsawItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SniperBullet",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/sniper_bullet.json",
+          "src/main/java/yuban/msguns/item/SniperBulletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SniperRifle",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/entity/SniperRifleEntity.java",
+          "src/main/java/yuban/msguns/item/SniperRifleItem.java",
+          "src/main/resources/assets/msguns/models/item/sniper_rifle.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyBullet",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/EmptyBulletItem.java",
+          "src/main/resources/assets/msguns/models/item/empty_bullet.json"
+        ]
+      }
+    },
+    {
+      "name": "SniperBulletRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_bullet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/sniper_bullet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SniperRifleFeibiDaoJugaburotukuniDangtatutatoki",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_rifle_feibi_dao_jugaburotukuni_dangtatutatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/SniperRifleFeibiDaoJugaburotukuniDangtatutatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NuclearEffectehuekutogaYouXiaoShinoteituku",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_effectehuekutoga_you_xiao_shinoteituku",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/NuclearEffectehuekutogaYouXiaoShinoteitukuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NuclearEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/potion/NuclearEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumDust",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/uranium_dust.json",
+          "src/main/java/yuban/msguns/item/UraniumDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/assets/msguns/models/item/uranium_ore.json",
+          "src/main/resources/assets/msguns/models/block/uranium_ore.json",
+          "src/main/java/yuban/msguns/world/features/ores/UraniumOreFeature.java",
+          "src/main/java/yuban/msguns/block/UraniumOreBlock.java",
+          "src/main/resources/assets/msguns/blockstates/uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/block/UraniumBlockBlock.java",
+          "src/main/resources/assets/msguns/blockstates/uranium_block.json",
+          "src/main/resources/assets/msguns/models/item/uranium_block.json",
+          "src/main/resources/assets/msguns/models/block/uranium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/uranium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/uranium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/uranium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "NuclearRifleFeibiDaoJugaenteiteiniDangtatutatoki",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_rifle_feibi_dao_jugaenteiteini_dangtatutatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/NuclearRifleFeibiDaoJugaenteiteiniDangtatutatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NuclearRifle",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/NuclearRifleItem.java",
+          "src/main/resources/assets/msguns/models/item/nuclear_rifle.json",
+          "src/main/java/yuban/msguns/entity/NuclearRifleEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "YellowCake",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/yellow_cake.json",
+          "src/main/java/yuban/msguns/item/YellowCakeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowCakeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cake_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/recipes/brewing/YellowCakeRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearPotionRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/recipes/brewing/NuclearPotionRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumPellet",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_pellet",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/UraniumPelletItem.java",
+          "src/main/resources/assets/msguns/models/item/uranium_pellet.json"
+        ]
+      }
+    },
+    {
+      "name": "Fluorite",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/FluoriteItem.java",
+          "src/main/resources/assets/msguns/models/item/fluorite.json"
+        ]
+      }
+    },
+    {
+      "name": "FluoriteOre",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/forge/biome_modifier/fluorite_ore_biome_modifier.json",
+          "src/main/resources/assets/msguns/models/item/fluorite_ore.json",
+          "src/main/java/yuban/msguns/world/features/ores/FluoriteOreFeature.java",
+          "src/main/java/yuban/msguns/block/FluoriteOreBlock.java",
+          "src/main/resources/assets/msguns/models/block/fluorite_ore.json",
+          "src/main/resources/assets/msguns/blockstates/fluorite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "FluoriteBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/block/FluoriteBlockBlock.java",
+          "src/main/resources/assets/msguns/models/block/fluorite_block.json",
+          "src/main/resources/assets/msguns/blockstates/fluorite_block.json",
+          "src/main/resources/assets/msguns/models/item/fluorite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "FluoriteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/fluorite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FluoriteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/fluorite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FluoriteOreSmelting",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/fluorite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "FluoriteDust",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/fluorite_dust.json",
+          "src/main/java/yuban/msguns/item/FluoriteDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FluoriteDustRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/fluorite_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumPelletRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_pellet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/recipes/brewing/UraniumPelletRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "EnergyGun",
+      "type": "rangeditem",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/energy_gun.json",
+          "src/main/java/yuban/msguns/item/EnergyGunItem.java",
+          "src/main/java/yuban/msguns/entity/EnergyGunEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "EnergyGunFeibiDaoJugaburotukuniDangtatutatoki",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_gun_feibi_dao_jugaburotukuni_dangtatutatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/EnergyGunFeibiDaoJugaburotukuniDangtatutatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/lead_ingot.json",
+          "src/main/java/yuban/msguns/item/LeadIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/forge/biome_modifier/lead_ore_biome_modifier.json",
+          "src/main/resources/assets/msguns/models/block/lead_ore.json",
+          "src/main/java/yuban/msguns/world/features/ores/LeadOreFeature.java",
+          "src/main/java/yuban/msguns/block/LeadOreBlock.java",
+          "src/main/resources/assets/msguns/blockstates/lead_ore.json",
+          "src/main/resources/assets/msguns/models/item/lead_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadBlock",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/blockstates/lead_block.json",
+          "src/main/java/yuban/msguns/block/LeadBlockBlock.java",
+          "src/main/resources/assets/msguns/models/item/lead_block.json",
+          "src/main/resources/assets/msguns/models/block/lead_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/lead_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/lead_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadOreSmelting",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/lead_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadArmor",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/lead_armor_helmet.json",
+          "src/main/resources/assets/msguns/models/item/lead_armor_leggings.json",
+          "src/main/resources/assets/msguns/models/item/lead_armor_boots.json",
+          "src/main/resources/assets/msguns/models/item/lead_armor_chestplate.json",
+          "src/main/java/yuban/msguns/item/LeadArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LeadArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/lead_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/lead_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/lead_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/lead_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuclearAirenteiteigaburotukunoShangwoBuitatoki",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_airenteiteigaburotukuno_shangwo_buitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/NuclearAirenteiteigaburotukunoShangwoBuitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NuclearAirburotukugaZhuiJiasaretatoki",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nuclear_airburotukuga_zhui_jiasaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/NuclearAirburotukugaZhuiJiasaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NuclearAir",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_air",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/block/NuclearAirBlock.java",
+          "src/main/resources/assets/msguns/models/item/nuclear_air.json",
+          "src/main/resources/assets/msguns/models/block/nuclear_air.json",
+          "src/main/resources/assets/msguns/blockstates/nuclear_air.json"
+        ]
+      }
+    },
+    {
+      "name": "NuclearRifleFeibiDaoJugaburotukuniDangtatutatoki",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_rifle_feibi_dao_jugaburotukuni_dangtatutatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/NuclearRifleFeibiDaoJugaburotukuniDangtatutatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AirRifle",
+      "type": "rangeditem",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_rifle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/air_rifle.json",
+          "src/main/java/yuban/msguns/item/AirRifleItem.java",
+          "src/main/java/yuban/msguns/entity/AirRifleEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ArrowBow",
+      "type": "rangeditem",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/arrow_bow.json",
+          "src/main/java/yuban/msguns/entity/ArrowBowEntity.java",
+          "src/main/java/yuban/msguns/item/ArrowBowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GunRod",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/gun_rod.json",
+          "src/main/java/yuban/msguns/item/GunRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/steel_ingot.json",
+          "src/main/java/yuban/msguns/item/SteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/block/steel_block.json",
+          "src/main/resources/assets/msguns/models/item/steel_block.json",
+          "src/main/java/yuban/msguns/block/SteelBlockBlock.java",
+          "src/main/resources/assets/msguns/blockstates/steel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/steel_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/steel_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronIngotFromBlastingIronOre",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ingot_from_blasting_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/iron_ingot_from_blasting_iron_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "IronIngotFromBlastingDeepslateIronOre",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ingot_from_blasting_deepslate_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/iron_ingot_from_blasting_deepslate_iron_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SniperBulletLauncher",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_bullet_launcher",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/SniperBulletLauncherItem.java",
+          "src/main/resources/assets/msguns/models/item/sniper_bullet_launcher.json"
+        ]
+      }
+    },
+    {
+      "name": "SniperRifleRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_rifle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/sniper_rifle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GunRodRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/gun_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotTag",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/steel.json"
+        ]
+      }
+    },
+    {
+      "name": "IodineTabletYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iodine_tablet_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/IodineTabletYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IodineTablet",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iodine_tablet",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/IodineTabletItem.java",
+          "src/main/resources/assets/msguns/models/item/iodine_tablet.json"
+        ]
+      }
+    },
+    {
+      "name": "IodineDust",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iodine_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/iodine_dust.json",
+          "src/main/java/yuban/msguns/item/IodineDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearEffectposiyonXiaoGuogaQieretaShi",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_effectposiyon_xiao_guoga_qiereta_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/NuclearEffectposiyonXiaoGuogaQieretaShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FissionReactor",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fission_reactor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/blockstates/fission_reactor.json",
+          "src/main/resources/assets/msguns/models/block/fission_reactor.json",
+          "src/main/java/yuban/msguns/block/entity/FissionReactorBlockEntity.java",
+          "src/main/resources/assets/msguns/models/item/fission_reactor.json",
+          "src/main/java/yuban/msguns/block/FissionReactorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NuclearWaste",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_waste",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/NuclearWasteItem.java",
+          "src/main/resources/assets/msguns/models/item/nuclear_waste.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranium238",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_238",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/Uranium238Item.java",
+          "src/main/resources/assets/msguns/models/item/uranium_238.json"
+        ]
+      }
+    },
+    {
+      "name": "Plutonium",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plutonium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/plutonium.json",
+          "src/main/java/yuban/msguns/item/PlutoniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NeutronLauncher",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutron_launcher",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/NeutronLauncherItem.java",
+          "src/main/resources/assets/msguns/models/item/neutron_launcher.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincIngot",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/ZincIngotItem.java",
+          "src/main/resources/assets/msguns/models/item/zinc_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/world/features/ores/ZincOreFeature.java",
+          "src/main/resources/data/msguns/forge/biome_modifier/zinc_ore_biome_modifier.json",
+          "src/main/resources/assets/msguns/blockstates/zinc_ore.json",
+          "src/main/resources/assets/msguns/models/block/zinc_ore.json",
+          "src/main/java/yuban/msguns/block/ZincOreBlock.java",
+          "src/main/resources/assets/msguns/models/item/zinc_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincBlock",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_block",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/block/ZincBlockBlock.java",
+          "src/main/resources/assets/msguns/models/block/zinc_block.json",
+          "src/main/resources/assets/msguns/models/item/zinc_block.json",
+          "src/main/resources/assets/msguns/blockstates/zinc_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincOreSmelting",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincPickaxe",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/ZincPickaxeItem.java",
+          "src/main/resources/assets/msguns/models/item/zinc_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincAxe",
+      "type": "tool",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/ZincAxeItem.java",
+          "src/main/resources/assets/msguns/models/item/zinc_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincSword",
+      "type": "tool",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/ZincSwordItem.java",
+          "src/main/resources/assets/msguns/models/item/zinc_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincShovel",
+      "type": "tool",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/zinc_shovel.json",
+          "src/main/java/yuban/msguns/item/ZincShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZincHoe",
+      "type": "tool",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/ZincHoeItem.java",
+          "src/main/resources/assets/msguns/models/item/zinc_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincAxeRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincSwordRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincShovelRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincHoeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincArmor",
+      "type": "armor",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/ZincArmorItem.java",
+          "src/main/resources/assets/msguns/models/item/zinc_armor_helmet.json",
+          "src/main/resources/assets/msguns/models/item/zinc_armor_boots.json",
+          "src/main/resources/assets/msguns/models/item/zinc_armor_leggings.json",
+          "src/main/resources/assets/msguns/models/item/zinc_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/zinc_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthIngot",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/bismuth_ingot.json",
+          "src/main/java/yuban/msguns/item/BismuthIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BismuthOre",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/world/features/ores/BismuthOreFeature.java",
+          "src/main/resources/data/msguns/forge/biome_modifier/bismuth_ore_biome_modifier.json",
+          "src/main/resources/assets/msguns/models/block/bismuth_ore.json",
+          "src/main/resources/assets/msguns/blockstates/bismuth_ore.json",
+          "src/main/resources/assets/msguns/models/item/bismuth_ore.json",
+          "src/main/java/yuban/msguns/block/BismuthOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BismuthBlock",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/blockstates/bismuth_block.json",
+          "src/main/resources/assets/msguns/models/item/bismuth_block.json",
+          "src/main/resources/assets/msguns/models/block/bismuth_block.json",
+          "src/main/java/yuban/msguns/block/BismuthBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BismuthOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthOreSmelting",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthPickaxe",
+      "type": "tool",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/bismuth_pickaxe.json",
+          "src/main/java/yuban/msguns/item/BismuthPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BismuthAxe",
+      "type": "tool",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/bismuth_axe.json",
+          "src/main/java/yuban/msguns/item/BismuthAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BismuthSword",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/bismuth_sword.json",
+          "src/main/java/yuban/msguns/item/BismuthSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BismuthShovel",
+      "type": "tool",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/item/BismuthShovelItem.java",
+          "src/main/resources/assets/msguns/models/item/bismuth_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthHoe",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/bismuth_hoe.json",
+          "src/main/java/yuban/msguns/item/BismuthHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BismuthPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthAxeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthSwordRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthShovelRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthHoeRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthArmor",
+      "type": "armor",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/bismuth_armor_helmet.json",
+          "src/main/java/yuban/msguns/item/BismuthArmorItem.java",
+          "src/main/resources/assets/msguns/models/item/bismuth_armor_boots.json",
+          "src/main/resources/assets/msguns/models/item/bismuth_armor_chestplate.json",
+          "src/main/resources/assets/msguns/models/item/bismuth_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BismuthArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bismuth_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/bismuth_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nihonium",
+      "type": "item",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nihonium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/nihonium.json",
+          "src/main/java/yuban/msguns/item/NihoniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FissionReactorProcessor",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fission_reactor_processor",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/procedures/FissionReactorProcessorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FissionReactorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fission_reactor_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/yuban/msguns/network/FissionReactorGUIButtonMessage.java",
+          "src/main/java/yuban/msguns/client/gui/FissionReactorGUIScreen.java",
+          "src/main/java/yuban/msguns/world/inventory/FissionReactorGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "FusionEngine",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_engine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/msguns/models/item/fusion_engine.json",
+          "src/main/java/yuban/msguns/item/FusionEngineItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FissionReactorRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fission_reactor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/fission_reactor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NeutronLauncherRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutron_launcher_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/msguns/recipes/neutron_launcher_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.potion.effect.nuclear_potion": "Nuclear Potion",
+      "item.msguns.bismuth_pickaxe": "Bismuth Pickaxe",
+      "block.msguns.fission_reactor": "Fission Reactor",
+      "item.minecraft.tipped_arrow.effect.nuclear_potion": "Arrow of Nuclear",
+      "item.msguns.uranium_238": "Uranium 238",
+      "effect.msguns.nuclear_effect": "Nuclear Effect",
+      "item.msguns.nihonium": "Nihonium",
+      "block.msguns.uranium_ore": "ウラン鉱石",
+      "item.msguns.iodine_tablet": "Iodine Tablet",
+      "item.msguns.zinc_armor_boots": "Zinc Boots",
+      "block.msguns.bismuth_ore": "Bismuth Ore",
+      "item.msguns.bismuth_armor_boots": "Bismuth Boots",
+      "gui.msguns.fission_reactor_gui.button_reactor_on": "Reactor On",
+      "item.msguns.plutonium": "Plutonium",
+      "block.msguns.steel_block": "Block of Steel",
+      "item.msguns.fusion_engine": "Fusion Engine",
+      "item.msguns.bismuth_armor_helmet": "Bismuth Helmet",
+      "item.msguns.bismuth_armor_leggings": "Bismuth Leggings",
+      "block.msguns.bismuth_block": "Block of Bismuth",
+      "item.msguns.steel_ingot": "Steel",
+      "block.msguns.nuclear_air": "Nuclear Air",
+      "block.msguns.lead_block": "Block of Lead",
+      "item.msguns.sniper_rifle": "Sniper Rifle",
+      "block.msguns.uranium_block": "Block of Uranium",
+      "item.msguns.zinc_armor_leggings": "Zinc Leggings",
+      "item.msguns.neutron_launcher": "Neutron Launcher",
+      "item.msguns.bismuth_sword": "Bismuth Sword",
+      "item.msguns.uranium_pellet": "Uranium Pellet",
+      "block.msguns.fluorite_ore": "Fluorite Ore",
+      "block.msguns.fluorite_block": "Block of Fluorite",
+      "item.minecraft.lingering_potion.effect.nuclear_potion": "Nuclear Lingering Potion",
+      "item.msguns.lead_armor_chestplate": "Hazmat Chestplate",
+      "block.msguns.zinc_ore": "Zinc Ore",
+      "item.msguns.empty_bullet": "Empty Bullet",
+      "block.msguns.zinc_block": "Block of Zinc",
+      "item.msguns.zinc_shovel": "Zinc Shovel",
+      "item.msguns.fluorite_dust": "Fluorite Dust",
+      "item.msguns.bismuth_axe": "Bismuth Axe",
+      "item.msguns.bismuth_ingot": "Bismuth",
+      "gui.msguns.fission_reactor_gui.label_neutron_launcher": "Neutron Launcher",
+      "item.msguns.zinc_sword": "Zinc Sword",
+      "item.msguns.yellow_cake": "イエローケーキ状のウラン",
+      "item.msguns.zinc_axe": "Zinc Axe",
+      "item.msguns.bismuth_armor_chestplate": "Bismuth Chestplate",
+      "item.msguns.lead_armor_helmet": "防護ヘルメット",
+      "item.msguns.sniper_bullet_launcher": "Sniper Bullet Launcher",
+      "item.msguns.zinc_armor_helmet": "Zinc Helmet",
+      "item.msguns.lead_armor_leggings": "Hazmat Leggings",
+      "item.msguns.lead_armor_boots": "Hazmat Boots",
+      "item.msguns.nuclear_waste": "Nuclear Waste",
+      "item.msguns.fluorite": "Fluorite",
+      "item.msguns.iodine_dust": "Iodine Dust",
+      "item.msguns.nuclear_rifle": "Nuclear Rifle",
+      "item.msguns.arrow_bow": "Arrow Bow",
+      "item.msguns.air_rifle": "Air Rifle",
+      "item.msguns.sniper_bullet": "Sniper Bullet",
+      "item.msguns.chainsaw": "Chainsaw",
+      "item.msguns.energy_gun": "Energy Gun",
+      "item.minecraft.splash_potion.effect.nuclear_potion": "Nuclear Splash Potion",
+      "item.msguns.zinc_ingot": "Zinc",
+      "item.msguns.bismuth_hoe": "Bismuth Hoe",
+      "block.msguns.lead_ore": "Lead Ore",
+      "item.msguns.lead_ingot": "Lead",
+      "item.msguns.gun_rod": "Gun Rod",
+      "item.msguns.zinc_armor_chestplate": "Zinc Chestplate",
+      "item.msguns.uranium_dust": "Uranium",
+      "item.msguns.bismuth_shovel": "Bismuth Shovel",
+      "gui.msguns.fission_reactor_gui.label_fission_reactor": "Nuclear Reactor",
+      "item.msguns.zinc_hoe": "Zinc Hoe",
+      "item.msguns.zinc_pickaxe": "Zinc Pickaxe"
+    },
+    "ja_jp": {
+      "item.minecraft.potion.effect.nuclear_potion": "放射線被ばくの薬品",
+      "item.msguns.bismuth_pickaxe": "Bismuth Pickaxe",
+      "block.msguns.fission_reactor": "Fission Reactor",
+      "item.minecraft.tipped_arrow.effect.nuclear_potion": "放射線被ばくする液体付きの矢",
+      "item.msguns.uranium_238": "Uranium 238",
+      "effect.msguns.nuclear_effect": "放射線被ばく",
+      "item.msguns.nihonium": "Nihonium",
+      "block.msguns.uranium_ore": "ウラン鉱石",
+      "item.msguns.iodine_tablet": "ヨウ素錠剤",
+      "item.msguns.zinc_armor_boots": "Zinc Boots",
+      "block.msguns.bismuth_ore": "Bismuth Ore",
+      "item.msguns.bismuth_armor_boots": "Bismuth Boots",
+      "gui.msguns.fission_reactor_gui.button_reactor_on": "Reactor On",
+      "item.msguns.plutonium": "Plutonium",
+      "block.msguns.steel_block": "鋼鉄ブロック",
+      "item.msguns.fusion_engine": "Fusion Engine",
+      "item.msguns.bismuth_armor_helmet": "Bismuth Helmet",
+      "item.msguns.bismuth_armor_leggings": "Bismuth Leggings",
+      "block.msguns.bismuth_block": "Block of Bismuth",
+      "item.msguns.steel_ingot": "鋼鉄インゴット",
+      "block.msguns.nuclear_air": "放射線で汚染された空気",
+      "block.msguns.lead_block": "鉛ブロック",
+      "item.msguns.sniper_rifle": "スナイパーライフル",
+      "block.msguns.uranium_block": "ウランブロック",
+      "item.msguns.zinc_armor_leggings": "Zinc Leggings",
+      "item.msguns.neutron_launcher": "Neutron Launcher",
+      "item.msguns.bismuth_sword": "Bismuth Sword",
+      "item.msguns.uranium_pellet": "ウランペレット",
+      "block.msguns.fluorite_ore": "蛍石鉱石",
+      "block.msguns.fluorite_block": "蛍石ブロック",
+      "item.minecraft.lingering_potion.effect.nuclear_potion": "放射線被ばくの残留ポーション",
+      "item.msguns.lead_armor_chestplate": "防護服",
+      "block.msguns.zinc_ore": "Zinc Ore",
+      "item.msguns.empty_bullet": "空の弾",
+      "block.msguns.zinc_block": "Block of Zinc",
+      "item.msguns.zinc_shovel": "Zinc Shovel",
+      "item.msguns.fluorite_dust": "蛍石の粉",
+      "item.msguns.bismuth_axe": "Bismuth Axe",
+      "item.msguns.bismuth_ingot": "Bismuth",
+      "gui.msguns.fission_reactor_gui.label_neutron_launcher": "Neutron Launcher",
+      "item.msguns.zinc_sword": "Zinc Sword",
+      "item.msguns.yellow_cake": "イエローケーキ状のウラン",
+      "item.msguns.zinc_axe": "Zinc Axe",
+      "item.msguns.bismuth_armor_chestplate": "Bismuth Chestplate",
+      "item.msguns.lead_armor_helmet": "防護ヘルメット",
+      "item.msguns.sniper_bullet_launcher": "スナイパー弾発射機",
+      "item.msguns.zinc_armor_helmet": "Zinc Helmet",
+      "item.msguns.lead_armor_leggings": "防護パンツ",
+      "item.msguns.lead_armor_boots": "防護ブーツ",
+      "item.msguns.nuclear_waste": "Nuclear Waste",
+      "item.msguns.fluorite": "蛍石",
+      "item.msguns.iodine_dust": "Iodine Dust",
+      "item.msguns.nuclear_rifle": "核兵器搭載銃",
+      "item.msguns.arrow_bow": "弓矢使い捨てセット",
+      "item.msguns.air_rifle": "空気ライフル",
+      "item.msguns.sniper_bullet": "スナイパー弾",
+      "item.msguns.chainsaw": "チェーンソー",
+      "item.msguns.energy_gun": "エネルギー銃",
+      "item.minecraft.splash_potion.effect.nuclear_potion": "放射線被ばくのスプラッシュポーション",
+      "item.msguns.zinc_ingot": "Zinc",
+      "item.msguns.bismuth_hoe": "Bismuth Hoe",
+      "block.msguns.lead_ore": "鉛鉱石",
+      "item.msguns.lead_ingot": "鉛インゴット",
+      "item.msguns.gun_rod": "銃専用のロッド",
+      "item.msguns.zinc_armor_chestplate": "Zinc Chestplate",
+      "item.msguns.uranium_dust": "ウランの粉",
+      "item.msguns.bismuth_shovel": "Bismuth Shovel",
+      "gui.msguns.fission_reactor_gui.label_fission_reactor": "Nuclear Reactor",
+      "item.msguns.zinc_hoe": "Zinc Hoe",
+      "item.msguns.zinc_pickaxe": "Zinc Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "msguns",
+    "modName": "More Swords, And Guns",
+    "version": "1.0.0",
+    "author": "USER, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "yuban.msguns",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

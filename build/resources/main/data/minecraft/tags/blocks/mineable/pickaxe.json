@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "msguns:uranium_block",
+    "msguns:uranium_ore",
+    "msguns:fluorite_ore",
+    "msguns:fluorite_block",
+    "msguns:lead_ore",
+    "msguns:lead_block",
+    "msguns:steel_block",
+    "msguns:zinc_ore",
+    "msguns:zinc_block",
+    "msguns:bismuth_ore",
+    "msguns:bismuth_block"
+  ]
+}

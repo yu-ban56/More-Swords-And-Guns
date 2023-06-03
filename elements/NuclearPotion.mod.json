@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Nuclear Potion",
+    "splashName": "Nuclear Splash Potion",
+    "lingeringName": "Nuclear Lingering Potion",
+    "arrowName": "Arrow of Nuclear",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:NuclearEffect"
+        },
+        "duration": 1200,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

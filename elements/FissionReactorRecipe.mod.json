@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NeutronLauncher"
+      },
+      {
+        "value": "CUSTOM:LeadBlock"
+      },
+      {
+        "value": "CUSTOM:FusionEngine"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadBlock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FissionReactor"
+    },
+    "name": "fission_reactor_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "msguns:bismuth_ingot"
+    },
+    "2": {
+      "item": "msguns:bismuth_ingot"
+    },
+    "3": {
+      "item": "msguns:bismuth_ingot"
+    },
+    "5": {
+      "item": "msguns:bismuth_ingot"
+    }
+  },
+  "result": {
+    "item": "msguns:bismuth_armor_boots",
+    "count": 1
+  }
+}

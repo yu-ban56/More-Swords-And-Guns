@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "nuclear_rifle",
+    "customModelName": "Normal",
+    "name": "Nuclear Rifle",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:UraniumDust"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 3,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:UraniumDust"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "NuclearRifleFeibiDaoJugaburotukuniDangtatutatoki"
+    },
+    "onBulletHitsEntity": {
+      "name": "NuclearRifleFeibiDaoJugaenteiteiniDangtatutatoki"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Nuclear Effect",
+    "icon": "nuclear_effect.png",
+    "color": {
+      "value": -16711936,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "NuclearEffectehuekutogaYouXiaoShinoteituku"
+    },
+    "onExpired": {
+      "name": "NuclearEffectposiyonXiaoGuogaQieretaShi"
+    }
+  }
+}

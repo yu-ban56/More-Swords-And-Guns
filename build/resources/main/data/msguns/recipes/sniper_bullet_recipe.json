@@ -1,0 +1,22 @@
+{
+  "group": "bullet_recipe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "msguns:empty_bullet"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "msguns:sniper_bullet",
+    "count": 1
+  }
+}

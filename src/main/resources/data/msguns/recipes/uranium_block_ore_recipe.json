@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "msguns:uranium_block"
+    }
+  ],
+  "result": {
+    "item": "msguns:uranium_dust",
+    "count": 9
+  }
+}

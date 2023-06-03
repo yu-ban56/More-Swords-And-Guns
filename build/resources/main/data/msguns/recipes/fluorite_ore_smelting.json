@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "msguns:fluorite_ore"
+  },
+  "result": "msguns:fluorite"
+}

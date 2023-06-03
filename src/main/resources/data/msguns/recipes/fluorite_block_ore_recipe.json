@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "msguns:fluorite_block"
+    }
+  ],
+  "result": {
+    "item": "msguns:fluorite",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "msguns:blocks/nuclear_air",
+    "up": "msguns:blocks/nuclear_air",
+    "north": "msguns:blocks/nuclear_air",
+    "east": "msguns:blocks/nuclear_air",
+    "south": "msguns:blocks/nuclear_air",
+    "west": "msguns:blocks/nuclear_air",
+    "particle": "msguns:blocks/nuclear_air"
+  },
+  "render_type": "translucent"
+}

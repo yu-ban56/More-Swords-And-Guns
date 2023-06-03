@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "msguns:uranium_dust"
+    },
+    {
+      "item": "msguns:lead_ingot"
+    },
+    {
+      "item": "msguns:fluorite"
+    }
+  ],
+  "result": {
+    "item": "msguns:neutron_launcher",
+    "count": 1
+  }
+}

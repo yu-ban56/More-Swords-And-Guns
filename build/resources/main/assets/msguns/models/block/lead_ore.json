@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "msguns:blocks/lead_ore",
+    "particle": "msguns:blocks/lead_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "msguns:lead_block"
+    },
+    "3": {
+      "item": "msguns:neutron_launcher"
+    },
+    "4": {
+      "item": "msguns:lead_block"
+    },
+    "5": {
+      "item": "msguns:fusion_engine"
+    },
+    "7": {
+      "item": "msguns:lead_block"
+    }
+  },
+  "result": {
+    "item": "msguns:fission_reactor",
+    "count": 1
+  }
+}

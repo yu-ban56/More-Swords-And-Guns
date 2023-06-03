@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3  "
+  ],
+  "key": {
+    "0": {
+      "item": "msguns:gun_rod"
+    },
+    "1": {
+      "item": "msguns:steel_block"
+    },
+    "2": {
+      "item": "msguns:air_rifle"
+    },
+    "3": {
+      "item": "msguns:gun_rod"
+    }
+  },
+  "result": {
+    "item": "msguns:sniper_rifle",
+    "count": 1
+  }
+}

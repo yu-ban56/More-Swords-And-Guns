@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "msguns:fluorite"
+    },
+    "1": {
+      "item": "msguns:fluorite"
+    },
+    "2": {
+      "item": "msguns:fluorite"
+    },
+    "3": {
+      "item": "msguns:fluorite"
+    },
+    "4": {
+      "item": "msguns:fluorite"
+    },
+    "5": {
+      "item": "msguns:fluorite"
+    },
+    "6": {
+      "item": "msguns:fluorite"
+    },
+    "7": {
+      "item": "msguns:fluorite"
+    },
+    "8": {
+      "item": "msguns:fluorite"
+    }
+  },
+  "result": {
+    "item": "msguns:fluorite_block",
+    "count": 1
+  }
+}

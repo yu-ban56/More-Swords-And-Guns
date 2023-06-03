@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "msguns:lead_ingot"
+    },
+    "2": {
+      "item": "msguns:lead_ingot"
+    },
+    "3": {
+      "item": "msguns:lead_ingot"
+    },
+    "5": {
+      "item": "msguns:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "msguns:lead_armor_boots",
+    "count": 1
+  }
+}

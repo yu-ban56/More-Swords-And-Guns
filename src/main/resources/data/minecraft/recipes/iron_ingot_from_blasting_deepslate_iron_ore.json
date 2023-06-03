@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1.6,
+  "cookingtime": 220,
+  "ingredient": {
+    "item": "minecraft:deepslate_iron_ore"
+  },
+  "result": "msguns:steel_ingot"
+}

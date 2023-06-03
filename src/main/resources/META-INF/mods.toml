@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="msguns"
+version="1.0.0"
+displayName="More Swords, And Guns"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="USER, MCreator"
+
+[[dependencies.msguns]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

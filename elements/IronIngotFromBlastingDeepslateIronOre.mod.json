@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.6,
+    "cookingTime": 220,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.DEEPSLATE_IRON_ORE"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SteelIngot"
+    },
+    "name": "iron_ingot_from_blasting_deepslate_iron_ore",
+    "namespace": "minecraft"
+  }
+}
